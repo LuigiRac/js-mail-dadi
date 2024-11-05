@@ -21,3 +21,5 @@ const userMail = [
     "gabriele@tiscali.it",
     "stefania@tim.com"
   ]
+
+  let email = prompt("Inserire la propria mail, grazie!")
