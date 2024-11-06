@@ -28,5 +28,7 @@ const userMail = [
 
  if (userMail.includes(email)){
     console.log("La sua mail è presente, può accedere alla pagina");
+ } else {
+    console.log ( "Mi dispiace, la sua mail non è presente");
  }
   
