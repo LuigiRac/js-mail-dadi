@@ -9,8 +9,10 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 
 function rollDice() {
-    let randNumber = Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
-    console.log(randNumber)
+    return Math.floor(Math.random() * (6 - 1 + 1) ) + 1;
   }
-
-  rollDice();
+  
+  const randomNumerUser = rollDice();
+  const randomNumerPc = rollDice();
+  console.log(rollDice());
+  
