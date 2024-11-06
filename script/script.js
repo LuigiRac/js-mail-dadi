@@ -23,3 +23,10 @@ const userMail = [
   ]
 
   let email = prompt("Inserire la propria mail, grazie!")
+  console.log ("La mail inserita è: " + email)
+  
+
+ if (userMail.includes(email)){
+    console.log("La sua mail è presente, può accedere alla pagina");
+ }
+  
